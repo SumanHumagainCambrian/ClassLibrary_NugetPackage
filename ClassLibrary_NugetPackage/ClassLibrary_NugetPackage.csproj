@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet Package Fields -->
+		<PackageId>ClassLibrary_NugetPackage</PackageId> <!-- The name of the NuGet package -->
+		<Version>1.0.0</Version>   
+		<Authors>Suman Humagain</Authors>
+		<Description>A simple class library for displaying text in screen</Description>
+	</PropertyGroup>
 
 </Project>
